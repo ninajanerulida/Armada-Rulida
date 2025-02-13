@@ -1,110 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="style" href="portfolio.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
-        <h2>Welcome to My Portfolio</h2>
-        <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contacts</a></li>
-        </ul>
-        <h4>About Me</h4>
-        <p>Hello! I'm a computer engineering student of Bohol Island State University - Main Campus(Bohol province). This portfolio showcase some of my projects.</p>
-        
-        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/476500109_1740160280177151_5977945325489397445_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFXHdW9uYou31Qrdhvf3R763P1s_1WdL3Pc_Wz_VZ0vc0naHwwvO_sqfTKkTLvBJQHRiQ-PrX0T7gOUj5JF_MJ7&_nc_ohc=6fAAXPM18QwQ7kNvgG4Fjvz&_nc_oc=Adj1tWRdLzgY5Gy5WW5NKJm46YO4UCvUWOfMZV136VRQt8uVUdBu_pv9S0A4Doukepg&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=AmuUhFkEn4PRzaVbUsYCoNN&oh=00_AYAUtk2OmEPAcWVJZgirHG4s5wsEevOEvp0JCNqpH10PJw&oe=67B24812" width="300" height="300" alt="A place holder of my portfolio">
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h4>My Projects</h4>
-        <style>
-            table {
-              font-family: arial, sans-serif;
-              border-collapse: collapse;
-              width: 100%;
-            }
-            
-            td, th {
-              border: 1px solid #101010;
-              text-align: left;
-              padding: 8px;
-            }
-            
-            tr:nth-child(even) {
-              background-color: #f7f2f2;
-            }
-            </style>
-            </head>
-            <body>
-            
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a computer engineering student at Bohol Island State University - Main Campus (Bohol province). This portfolio showcases some of my projects.</p>
+            <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/476500109_1740160280177151_5977945325489397445_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFXHdW9uYou31Qrdhvf3R763P1s_1WdL3Pc_Wz_VZ0vc0naHwwvO_sqfTKkTLvBJQHRiQ-PrX0T7gOUj5JF_MJ7&_nc_ohc=6fAAXPM18QwQ7kNvgG4Fjvz&_nc_oc=Adj1tWRdLzgY5Gy5WW5NKJm46YO4UCvUWOfMZV136VRQt8uVUdBu_pv9S0A4Doukepg&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=AmuUhFkEn4PRzaVbUsYCoNN&oh=00_AYAUtk2OmEPAcWVJZgirHG4s5wsEevOEvp0JCNqpH10PJw&oe=67B24812" width="300" height="300" alt="A placeholder for my portfolio">
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
             <table>
-              <tr>
-                <th>Project Name</th>
-                <th>Description</th>
-                <th>Year</th>
-              </tr>
-              <tr>
-                <td>E-Kilos Mo Mobile Application</td>
-                <td>Design and develop features using FlutterFlow, ensuring user-friendly functionality for the Software Engineering and Design. Collaborated in the development of a mobile application aimed to promote the local service providers.</td>
-                <td>2023</td>
-              </tr>
-              <tr>
-                <td>IoT Azolla Monitoring System</td>
-                <td>Collaborating with a team of four to develop a remote monitoring system for the Azolla plant, enabling real-time tracking and optimization of growth parameters. This project is part of our thesis dissertation.</td>
-                <td>2025</td>
-              </tr>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>E-Kilos Mo Mobile Application</td>
+                        <td>Designed and developed features using FlutterFlow, ensuring user-friendly functionality for software engineering and design. Collaborated in developing a mobile app to promote local service providers.</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>IoT Azolla Monitoring System</td>
+                        <td>Collaborating with a team of four to develop a remote monitoring system for the Azolla plant, enabling real-time tracking and optimization of growth parameters. This project is part of our thesis dissertation.</td>
+                        <td>2025</td>
+                    </tr>
+                </tbody>
             </table>
+        </section>
 
-        <form action="" method="POST">
-            <h4>Contact Me</h4>
 
-            <label for="name">Full name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="" method="POST">
 
-            <fieldset>
-                <legend>How did you hear about this portfolio?</legend>
-            
-                <input type="radio" id="friend" name="referral" value="friend">
-                <label for="friend">Friend</label><section>
-            
-                <input type="radio" id="social_media" name="referral" value="social media">
-                <label for="social_media">Social Media</label><section>
-            
-                <input type="radio" id="search_engine" name="referral" value="search engine">
-                <label for="search_engine">Search Engine</label><section>
-            
-                <input type="radio" id="other" name="referral" value="other">
-                <label for="other">Other</label>
-            </fieldset>            
-        
-            <fieldset>
-                <legend>Skills/Interests</legend>
-                <section>
-                <input type="checkbox" id="web_development" name="features[]" value="Web development">
-                <label for="web_development">Web Development</label>
-                </section>
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-                <section>
-                <input type="checkbox" id="design" name="features[]" value="Design">
-                <label for="design">Design</label>
-                </section>
-            
-                <input type="checkbox" id="photography" name="features[]" value="Photography">
-                <label for="photography">Photography</label>
-            </fieldset>            
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-        <label for="comments_messages">Comments/ Messages:</label>
-        <textarea id="comments_messages" name="comments_messages"></textarea>
+                <fieldset>
+                  <legend>How did you hear about this portfolio?</legend>
+                  <label for="friend"><input type="radio" name="sources" id="friend">Friend</label> <br>
+                  <label for="social_media"><input type="radio" name="sources" id="social_media">Social
+                      Media</label> <br>
+                  <label for="search_engine"><input type="radio" name="sources" id="search_engine">Search
+                      Engine</label> <br>
+                  <label for="other"><input type="radio" name="sources" id="other">Other</label> <br>
+              </fieldset>
 
-        <input type="submit" value="Submit">
-    </form>
-    
+                <fieldset>
+                  <legend>Skills/Interests</legend>
+                  <label for="web"><input type="checkbox" name="Skills" id="web">Web Development</label> <br>
+                  <label for="songwiriting"><input type="checkbox" name="skills" id="songwiriting">Songwriting</label> <br>
+                  <label for="mix_master"><input type="checkbox" name="misx_master" id="mix_master">Mixing and
+                      Mastering</label> <br>
+              </fieldset>
+
+                <div class="form-group">
+                    <label for="comments_messages">Comments / Messages:</label>
+                    <textarea id="comments_messages" name="comments_messages"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
     <footer>
-        <p>Niña Jane Rulida Portfolio | All rights reserved @ 2025</p>
+        <p>Niña Jane Rulida Portfolio | All rights reserved © 2025</p>
     </footer>
-
 </body>
 </html>
