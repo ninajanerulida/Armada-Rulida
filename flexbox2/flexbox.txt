@@ -1,0 +1,4 @@
+yung unang difficulty na naface ko ay kung paano maadjust ang left chanel na box na hindi naapektuhan ang right panel ang ginawa ko ay nag flex at flex-grow
+ikalawa, ay ang alignment ng boxes "align-items" lang pa
+pangatlo, medyo nakakahilo kung saan naba yung elements na ginamit ko pero nagawa ko naman ng paraan
+challenging ito umabot talaga ako ng 3 and a half hour 
