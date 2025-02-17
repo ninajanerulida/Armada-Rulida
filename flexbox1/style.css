@@ -1,0 +1,38 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 95vh;
+    padding: 15px;
+  }
+  
+  header {
+    background-color: #ffcc00;
+    height: 150px;
+  }
+  
+  main {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+  }
+
+  aside {
+    background-color: #9b59b6;
+    height: 310px;
+    width: 300px;
+  }
+  
+  section {
+    background-color: #1abc9c;
+    height: 310px;
+    width: 876px;
+    flex-grow: 1;
+  }
+  
+  footer {
+    background-color: #e74c3c;
+    height: 150px;
+  }
