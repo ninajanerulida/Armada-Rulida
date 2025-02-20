@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content:baseline;
+    align-items:center;
+    background-color: #6f42c1;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: white;
+    color: #6f42c1;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.search-bar {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color:blueviolet;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 40px;
+}
+
+.logo-large {
+    font-size: 60px;
+    font-weight: bold;
+    background-color: #6f42c1;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 12px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+p a{
+    color: white;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.code-btn, .docs-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.code-btn {
+    background-color: #343a40;
+    color: white;
+    font-family: "JetBrains Mono", "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.docs-btn {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.version {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* Get Started Section */
+.get-started {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.code-icon {
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color:rgb(49, 6, 101);
+    border: none;
+    border-radius: 5px;
+    color:  #7e50d3;
+    width: 50px;
+    height: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.install-link {
+    display: block;
+    margin-top: 10px;
+    color: #54ade8;
+    text-decoration: none;
+}
