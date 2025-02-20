@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="logo">NETFLIX</h1>
+        <nav class="header-nav">
+            <form>
+                <label for="language" class="visually-hidden"></label>
+                <select id="language" class="language-selector">
+                    <option>English</option>
+                    <option>Filipino</option>
+                </select>
+            </form>
+            <button class="sign-in">Sign In</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <article class="hero-content">
+            <h2>Unlimited movies, TV shows, and more</h2>
+            <p>Starts at ₱149. Cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-form">
+                <label for="email" class="visually-hidden"></label>
+                <input type="email" id="email" placeholder="Email address" required>
+                <button type="submit">Get Started ></button>
+            </form>
+        </article>
+    </section>
+
+    <!-- Trending Now -->
+    <section class="trending">
+        <h2>Trending Now</h2>
+        <ul class="movie-list">
+            <li class="movie">
+                <img src="ad-vitam.jpg" alt="Ad Vitam">
+                <span>Recently Added</span>
+            </li>
+            <li class="movie">
+                <img src="intruder.jpg" alt="Intruder">
+            </li>
+            <li class="movie">
+                <img src="pets2.jpg" alt="Pets 2">
+            </li>
+            <li class="movie">
+                <img src="me2.jpg" alt="Me2">
+                <span>Recently Added</span>
+            </li>
+            <li class="movie">
+                <img src="forge.jpg" alt="The Forge">
+                <span>Recently Added</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- More Reasons to Join -->
+    <section class="reasons">
+        <article>
+            <h3>Enjoy on your TV</h3>
+            <p>Watch on Smart TVs, PlayStation, Xbox, and more.</p>
+        </article>
+        <article>
+            <h3>Download your shows to watch offline</h3>
+            <p>Save your favorites easily and always have something to watch.</p>
+        </article>
+        <article>
+            <h3>Watch everywhere</h3>
+            <p>Stream unlimited movies and TV shows on your devices.</p>
+        </article>
+        <article>
+            <h3>Create profiles for kids</h3>
+            <p>Send kids on adventures with favorite characters.</p>
+        </article>
+    </section>
+
+    <!-- Footer Sign-Up -->
+    <footer class="footer-signup">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <form class="email-form">
+            <label for="footer-email" class="visually-hidden"></label>
+            <input type="email" id="footer-email" placeholder="Email address" required>
+            <button type="submit">Get Started ></button>
+        </form>
+    </footer>
+</body>
+</html>
