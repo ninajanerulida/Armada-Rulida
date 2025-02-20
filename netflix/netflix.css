@@ -10,20 +10,23 @@ body {
 
 /* Header */
 .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    width: 90%;
-    top: 0;
+    z-index: 2; /* Ensures the header stays above the overlay */
 }
 
+/* Netflix Logo */
 .logo {
     font-size: 2rem;
-    font-weight: bold;
-    color: #e50914;
+    font-weight: 700;
+    color: #e50914; /* Netflix Red */
+    text-transform: uppercase;
 }
 
 .header-nav {
@@ -56,17 +59,43 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('netflix/bg.jpg') no-repeat center center/cover;
+    position: relative;
+    background-image: url('images/background.jpg'); /* Your image */
+    background-size: cover;
+    background-position: center;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    color: white;
+    padding-top: 80px; /* Prevents content from hiding behind header */
 }
 
+/* Dark Overlay */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1; /* Below the text */
+}
+
+/* Ensure Hero Text is Above Overlay */
 .hero-content {
-    max-width: 600px;
+    position: relative;
+    z-index: 2; /* Above the dark overlay */
+    max-width: 80%;
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 80%;
 }
 
 .hero h2 {
