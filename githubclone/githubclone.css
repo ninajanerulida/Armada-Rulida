@@ -1,0 +1,325 @@
+body {
+    background-color: #0D1117;
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    position: absolute;
+    background-color: #25292E;
+    width: 100%;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    color: white;
+    top: 0;
+    left: 0;
+    align-items: center;
+    gap: 12px;
+    font-size: 100;
+}
+
+.github-logo{
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+header img {
+    height: 30px;
+}
+
+.icon-img{
+    width: 10%;
+    height: 15%;
+}
+
+.searchbar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    
+}
+
+.search-bar{
+    text-indent: 20px;
+    margin-left: 45vh;
+    position: relative;
+    width: 300px;
+    padding: 1%;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    background: url(github/icons/svgexport-14.png) no-repeat left, url(github/icons/svgexport-15.png) no-repeat right;
+}
+
+.signup-button {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #25292E;
+    cursor: pointer;
+    color: white;
+}
+
+.signin-button {
+    color: white;
+    background-color: #25292E;
+    border: none;
+}
+
+.first-line {
+    position: relative;
+    font-size: x-small;
+    color: white;
+    top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    font-size: large;
+}
+
+.first-line span {
+    position: relative;
+    cursor: pointer;
+    color: #c9d1d9;
+    font-size: 16px;
+}
+
+.first-line span:first-child { 
+    font-weight: bold;
+}
+
+.first-line span:first-child::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 100%;
+    height: 2px;
+    background-color: #58a6ff; 
+}
+
+.column-container {
+    display: flex; 
+    position: relative;
+    right: 5vh;
+    gap: 47vh;
+    margin-top: 8vh;
+    padding: 0 40px;
+}
+
+.main-container {
+    flex: 3; 
+    color: #9198A1;
+    position: relative;
+    left: 44vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.second-line {
+    padding: 0%;
+    margin-left: 0%;
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+.game-container {
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding: 0%;
+    border-radius: 4px;
+}
+
+.gameoff-img {
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.content-container {
+    padding: 20px;
+    flex: 1;
+}
+
+.user-profile {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px;
+    flex: 1;
+}
+
+h2 {
+    color: #4493F8;
+    margin: 10px 0;
+}
+
+.content-text h4 {
+    font-weight: 500;
+    line-height: 9px;
+    margin: 10px 0;
+    flex: 1;
+}
+
+.seccontent-text h4 {
+    font-weight: 500;
+    line-height: 9px;
+    margin: 10px 0;
+    flex: 1;
+}
+
+.left-word{
+    position: absolute;
+    margin-left: 25vh;
+    top: 60px;
+    margin-bottom: 20px;
+}
+
+.change-space{
+    position: relative;
+    bottom:0.2vh;
+    padding-bottom: 10px;
+}
+
+.blue-text2{
+    color: #4493F8;
+}
+.collection-container {
+    display: flex;
+    position: relative;
+    gap: 40px;
+    border: 1px solid grey;
+    margin-bottom: 50px;
+    margin-left: 0%;
+    padding-bottom: 10%;
+    padding-left: 0%;
+    flex: 1;
+}
+
+.hashtag-box {
+    margin-top: 20px;
+    width: 15%;
+    height: 80%;
+    padding: 20px;
+    background-color: #111D2F;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.middle-hashtag {
+    color: #94a3b8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.trending-developers-container {
+    list-style-type: none;
+    position: relative;
+    top: 4vh;
+    flex: 1.2;
+}
+
+.title-trending {
+    font-weight: bold;
+    border: 1px solid #444;
+    color: #9198A1;
+    padding: 15px;
+    border-radius: 5px 5px 0px 0px;
+    background-color:#25292E;
+}
+
+.microscope{
+    position: relative;
+    width: 6%;
+    top: 2;
+}
+
+.dev-container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 5px;
+    border: 1px solid #444;
+    padding: 2vh;
+    line-height: 17px;
+}
+
+.picture-container{
+    position: relative;
+    top: 2px;
+    left: 3%;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    flex: 0.6;
+}
+
+.dev-profile{
+    position: relative;
+    left: 18px;
+    flex: 2.5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.blue-text{
+    color: #4493F8;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.gray-text{
+    color: #9198A1;
+}
+
+.bookmark{
+    flex-direction: row;
+    font-size: xx-small;
+    margin-top: 12px;
+    width: 8%;
+}
+
+.see-container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 5px;
+    border: 1px solid #444;
+    padding: 2vh;
+    line-height: 17px;
+    color: #4493F8;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.last-line{
+    font-size: small;
+    color:#9198A1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+
+.footer-logo{
+    width: 1%;
+    position: relative;
+    left: 20px;
+}
