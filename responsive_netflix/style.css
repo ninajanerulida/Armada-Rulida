@@ -93,6 +93,8 @@ input {
     border: none;
     border-radius: 5px;
     outline: none;
+    background-color: transparent;
+    border-color: #e50914;
 }
 
 button {
