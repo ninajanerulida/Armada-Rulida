@@ -8,7 +8,6 @@ body {
     padding: 0;
 }
 
-/* Header */
 .header {
     position: absolute;
     top: 0;
@@ -18,14 +17,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2; /* Ensures the header stays above the overlay */
-}
+    z-index: 2; 
 
-/* Netflix Logo */
 .logo {
     font-size: 2rem;
     font-weight: 700;
-    color: #e50914; /* Netflix Red */
+    color: #e50914; 
     text-transform: uppercase;
 }
 
@@ -57,10 +54,9 @@ body {
     background: #b2070f;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
-    background-image: url('images/background.jpg'); /* Your image */
+    background-image: url('images/background.jpg'); 
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -69,10 +65,9 @@ body {
     align-items: center;
     text-align: center;
     color: white;
-    padding-top: 80px; /* Prevents content from hiding behind header */
+    padding-top: 80px; 
 }
 
-/* Dark Overlay */
 .hero::before {
     content: "";
     position: absolute;
@@ -81,13 +76,11 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
-    z-index: 1; /* Below the text */
-}
+    z-index: 1;
 
-/* Ensure Hero Text is Above Overlay */
 .hero-content {
     position: relative;
-    z-index: 2; /* Above the dark overlay */
+    z-index: 2;
     max-width: 80%;
 }
 
@@ -139,7 +132,6 @@ body {
     background: #b2070f;
 }
 
-/* Trending Now */
 .trending {
     padding: 50px 20px;
 }
@@ -178,7 +170,6 @@ body {
     left: 5px;
 }
 
-/* More Reasons to Join */
 .reasons {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -203,7 +194,6 @@ body {
     margin-top: 10px;
 }
 
-/* Footer Sign-Up */
 .footer-signup {
     padding: 30px;
     background: rgba(255, 255, 255, 0.1);
