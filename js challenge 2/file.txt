@@ -1,0 +1,31 @@
+JavaScript Tasks
+
+Using const instead of let helps keep variables from changing by mistake.
+Arrays like inventory and words use const because their names stay the same, even if the items inside them change.
+Numbers like sideA, sideB, and sideC also use const so they don’t get changed by accident, making the code clearer and predictable.
+
+Task 1: Inventory Tracker
+Output:
+
+apple: 10
+banana: 15
+cherry: 5
+date: 20
+elderberry: 7
+
+
+Task 2: Alphabetical Sorting
+Output:
+
+Sorted Words: [ 'apple', 'banana', 'cherry', 'mango', 'zebra' ]
+
+Task 3: Unique Array Builder
+Output Example: (varies due to randomness)
+
+Unique Random Numbers: [ 3, 7, 14, 19, 2, 10, 16, 1, 12, 5 ]
+
+
+Task 4: Triangle Checker
+Output:
+
+The sides 7, 10, and 5 form a valid triangle.
