@@ -1,0 +1,87 @@
+Challenge 1: Calculate Sum
+*The function correctly adds up the elements in `numbers`, returning `10`.
+javascript:
+function calculateSum(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+      sum += arr[i];
+    }
+    return sum;
+}
+
+let numbers = [1, 2, 3, 4];
+console.log("Sum:", calculateSum(numbers));
+
+
+Predicted Output:
+Sum: 10
+
+
+Challenge 2: Check Even Number
+*The function checks divisibility by `2`, correctly identifying even and odd numbers.
+javascript:
+function isEven(num) {
+    return num % 2 === 0;
+}
+
+console.log(isEven(4));  // true
+console.log(isEven(7));  // false
+console.log(isEven(0));  // true
+
+
+Challenge 3: Personalized Greetings
+*Each name in `friends` is passed to `greet`, generating personalized messages.
+javascript:
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+
+function personalizedGreeting(names) {
+    for (let i = 0; i < names.length; i++) {
+      console.log(greet(names[i]));
+    }
+}
+
+let friends = ["Alice", "Bob", "Charlie"];
+personalizedGreeting(friends);
+
+
+Predicted Output:
+Hello, Alice!
+Hello, Bob!
+Hello, Charlie!
+
+
+Challenge 4: Reverse Array
+*`reverseArray` creates a new reversed array without modifying the original.
+javascript:
+function reverseArray(arr) {
+    let reversed = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+      reversed.push(arr[i]);
+    }
+    return reversed;
+}
+
+let originalArray = [10, 20, 30];
+console.log(reverseArray(originalArray)); // [30, 20, 10]
+console.log(originalArray); // [10, 20, 30] (unchanged)
+
+
+Challenge 5: Multiply Matrix Elements
+*The matrix values are doubled as expected, modifying the original array directly.
+javascript:
+function multiplyMatrix(matrix) {
+    for (let i = 0; i < matrix.length; i++) {
+      for (let j = 0; j < matrix[i].length; j++) {
+        matrix[i][j] *= 2;
+      }
+    }
+    return matrix;
+}
+
+let matrix = [
+    [1, 2],
+    [3, 4],
+];
+console.log(multiplyMatrix(matrix)); // [[2, 4], [6, 8]]
